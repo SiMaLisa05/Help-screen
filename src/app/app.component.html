@@ -1,0 +1,11 @@
+<mat-toolbar class="toolbar"color="primary">
+  <span routerLink="/">Help Screen</span>
+  <div class="spacer"></div>
+  <button id="home" mat-button routerLink="/">Home</button>
+  <!-- &nbsp; -->
+  <button id="help" mat-button routerLink="/about">Help</button>
+</mat-toolbar>
+<div class="content" role="main">
+  <router-outlet></router-outlet>
+  <!-- <span>{{title}} app is running</span> -->
+</div>

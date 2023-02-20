@@ -1,0 +1,101 @@
+.content-pane
+{
+    padding: 7px;
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 7px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.content-pane .message
+{
+    padding: 2px;
+    width: 100%;
+}
+.content-pane .message h1
+{
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.content-pane .message p
+{
+    width: 100%;
+    font-weight: 500;
+    text-align: center;
+    font-size: 14px;
+}
+.content-pane .nav-pane
+{
+    width: 100%;
+    padding: 17px;
+    text-align: center;
+}
+.content-pane .nav-pane .row
+{
+    display: inline-block;
+    margin-left: 14px;
+    padding: 2px;
+}
+.content-pane .nav-pane .row .numbering
+{
+    display: inline-block;
+    padding: 7px;
+    background-color: #333;
+    padding-left: 14px;
+    padding-right: 14px;
+    border:none;
+    border-radius: 50%;
+    color: white;
+    font-weight: 600;
+}
+.content-pane .nav-pane .row span
+{
+    margin-left: 5px;
+}
+#chat
+{
+    background-color: #1976d2;
+    color: white;
+    font-weight: 500;
+    top: 5;
+    border-radius: 7px;
+}
+.content-pane .nav-pane .separator
+{
+    width: 96%;
+    background-color: #333;
+    height: 1px;
+    margin-top: 5px;
+}
+.field
+{
+    width: 95%;
+    height: 44vh;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 7px 7px 0px 0px;
+    background: #f7f7f7;
+    border-bottom: none;
+}
+.textfield
+{
+    width: 94.8%;
+    top: 0;
+    padding: 10px;
+    border: 1px solid rgb(161, 161, 161);
+    background-color: #f7f7f7;
+    border-radius: 0px 0px 7px 7px;
+}
+.textfield input
+{
+    float: left;
+    padding: 7px;
+    margin-top: -5px;
+    outline: none;
+    border-radius: 7px;
+    border: 1px solid rgb(161, 161, 161);
+    width: 85%;
+}
